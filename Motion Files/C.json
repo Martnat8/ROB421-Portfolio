@@ -1,0 +1,28 @@
+{
+    "Name": "C",
+    "Keyframes": [
+        {
+            "HasEmote": "False",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "WaitTime": 2000,
+            "JointAngles": [
+                
+                {"Joint": "RightChest","Angle": -35},
+                {"Joint": "RightElbow","Angle": 35},
+                {"Joint": "RightBicep","Angle": 15},
+                {"Joint": "RightShoulder","Angle": 100},
+
+
+                {"Joint": "LeftChest","Angle": 290},
+                {"Joint": "LeftElbow","Angle": 90},
+                {"Joint": "LeftBicep","Angle": 200},
+                {"Joint": "LeftShoulder","Angle": 60},
+
+                {"Joint": "TorsoTilt","Angle": 85},
+                {"Joint": "HeadTilt","Angle": 110}
+            
+            ]
+        }
+    ]
+}

@@ -1,0 +1,549 @@
+{
+    "Name": "YMCA",
+    "Keyframes": [
+        {
+            "name": "Start of Shimmy moves --------------------",
+            "_comment": "Shimmy moves start here"
+        },
+        {
+            "HasEmote": "False",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "Expression": "Happy",
+            "WaitTime": 300,
+            "JointMoveTime": 0.5,
+            "JointAngles": [
+              
+                { "Joint": "HeadTilt", "Angle": 120 },
+                { "Joint": "TorsoTilt", "Angle": 120 },
+                
+                { "Joint": "RightShoulder", "Angle": 180 },
+                { "Joint": "RightElbow", "Angle": 130 },
+
+                { "Joint": "LeftShoulder", "Angle": 90 },
+                { "Joint": "LeftElbow", "Angle": 50 }
+            ]
+        },
+        {
+            "HasEmote": "False",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "Expression": "Happy",
+            "WaitTime": 150,
+            "JointMoveTime": 0.5,
+            "JointAngles": [
+              
+                { "Joint": "HeadTilt", "Angle": 110 },
+                { "Joint": "TorsoTilt", "Angle": 110 },
+                
+                { "Joint": "RightShoulder", "Angle": 150 },
+                { "Joint": "RightElbow", "Angle": 150 },
+
+                { "Joint": "LeftShoulder", "Angle": 75 },
+                { "Joint": "LeftElbow", "Angle": 75 }
+            ]
+        },
+        {
+            "HasEmote": "False",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "Expression": "Happy",
+            "WaitTime": 150,
+            "JointMoveTime": 0.5,
+            "JointAngles": [
+              
+                { "Joint": "HeadTilt", "Angle": 120 },
+                { "Joint": "TorsoTilt", "Angle": 120 },
+
+                { "Joint": "RightShoulder", "Angle": 170 },
+                { "Joint": "RightElbow", "Angle": 140 },
+
+                { "Joint": "LeftShoulder", "Angle": 110 },
+                { "Joint": "LeftElbow", "Angle": 40 }
+            ]
+        },
+        {
+            "HasEmote": "False",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "Expression": "Happy",
+            "WaitTime": 150,
+            "JointMoveTime": 0.5,
+            "JointAngles": [
+              
+                { "Joint": "HeadTilt", "Angle": 110 },
+                {"Joint": "TorsoTilt", "Angle": 110 },
+
+                { "Joint": "RightShoulder", "Angle": 150 },
+                { "Joint": "RightElbow", "Angle": 150 },
+
+                { "Joint": "LeftShoulder", "Angle": 75 },
+                { "Joint": "LeftElbow", "Angle": 75 }
+            ]
+        },
+        {
+            "HasEmote": "False",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "Expression": "Happy",
+            "WaitTime": 150,
+            "JointMoveTime": 0.5,
+            "JointAngles": [
+              
+                { "Joint": "HeadTilt", "Angle": 135 },
+                {"Joint": "TorsoTilt", "Angle": 115 },
+
+                { "Joint": "RightShoulder", "Angle": 180 },
+                { "Joint": "RightElbow", "Angle": 140 },
+
+                { "Joint": "LeftShoulder", "Angle": 110 },
+                { "Joint": "LeftElbow", "Angle": 40 }
+            ]
+        },
+        {
+            "name": "End of Shimmy moves --------------------",
+            "_comment": "Shimmy moves end here"
+        },
+        {
+            "name": "Start of YMCA moves --------------------",
+            "_comment": "YMCA Letter poses start here"
+        },
+        {
+            "name": "y-pose",
+            "_comment": "The next frame is the Y-pose"
+        },
+        {
+            "HasEmote": "True",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "Expression": "Happy",
+            "WaitTime": 400,
+            "JointMoveTime": 0.4,
+            "JointAngles": [
+
+                {"Joint": "RightShoulder","Angle": 230},
+                {"Joint": "LeftShoulder","Angle": 40},
+                {"Joint": "RightBicep","Angle": 200},
+                {"Joint": "LeftBicep","Angle": 30},
+                {"Joint": "RightElbow","Angle": 10},
+                {"Joint": "LeftElbow","Angle": 180}
+            ]
+        },
+        {
+            "name": "m-pose",
+            "_comment": "The next frame is the M-pose"
+        },
+        {
+            "HasEmote": "False",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "WaitTime": 400,
+            "JointMoveTime": 0.4,
+            "JointAngles": [
+
+                {"Joint": "RightShoulder","Angle": 220},
+                {"Joint": "LeftShoulder","Angle": 50},
+                {"Joint": "LeftBicep","Angle": 25},
+                {"Joint": "RightBicep","Angle": 205},
+                {"Joint": "RightElbow","Angle": 110},
+                {"Joint": "LeftElbow","Angle": 70}
+            ]
+        },
+        {
+            "name": "c-pose",
+            "_comment": "The next frame is the C-pose"
+        },
+        {
+            "HasEmote": "False",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "WaitTime": 400,
+            "JointMoveTime": 0.4,
+            "JointAngles": [
+                
+                {"Joint": "RightChest","Angle": -35},
+                {"Joint": "RightElbow","Angle": 35},
+                {"Joint": "RightBicep","Angle": 15},
+                {"Joint": "RightShoulder","Angle": 100},
+
+
+                {"Joint": "LeftChest","Angle": 290},
+                {"Joint": "LeftElbow","Angle": 90},
+                {"Joint": "LeftBicep","Angle": 200},
+                {"Joint": "LeftShoulder","Angle": 60},
+
+                {"Joint": "TorsoTilt","Angle": 85},
+                {"Joint": "HeadTilt","Angle": 110}
+            
+            ]
+        },
+        {
+            "name": "A-pose",
+            "_comment": "The next frame is the A-pose"
+        },
+        {
+            "HasEmote": "False",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "WaitTime": 400,
+            "JointMoveTime": 0.4,
+            "JointAngles": [
+
+                {"Joint": "RightElbow","Angle": 60},
+                {"Joint": "RightShoulder","Angle": 95},
+                {"Joint": "RightBicep", "Angle": 30},
+
+                {"Joint": "LeftElbow", "Angle": 115},
+                {"Joint": "LeftShoulder", "Angle": 160},
+                {"Joint": "LeftBicep", "Angle": 200},
+
+                {"Joint": "TorsoTilt","Angle": 115},
+                {"Joint": "HeadTilt","Angle": 125}
+                
+            ] 
+        },
+        {
+            "name": "End of YMCA moves --------------------",
+            "_comment": "YMCA Letter poses end here"
+        },
+        {
+            "name": "Start of Shimmy moves --------------------",
+            "_comment": "Shimmy moves start here"
+        },
+        {
+            "HasEmote": "False",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "Expression": "Happy",
+            "WaitTime": 300,
+            "JointMoveTime": 0.5,
+            "JointAngles": [
+              
+                { "Joint": "HeadTilt", "Angle": 120 },
+                { "Joint": "TorsoTilt", "Angle": 120 },
+                
+                { "Joint": "RightShoulder", "Angle": 180 },
+                { "Joint": "RightElbow", "Angle": 130 },
+                {"Joint": "RightBicep", "Angle": 115},
+                {"Joint": "RightChest", "Angle": 135},
+
+                { "Joint": "LeftShoulder", "Angle": 90 },
+                { "Joint": "LeftElbow", "Angle": 50 },
+                {"Joint": "LeftBicep", "Angle": 135},
+                {"Joint": "LeftChest", "Angle": 135}
+            ]
+        },
+        {
+            "HasEmote": "False",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "Expression": "Happy",
+            "WaitTime": 150,
+            "JointMoveTime": 0.5,
+            "JointAngles": [
+              
+                { "Joint": "HeadTilt", "Angle": 110 },
+                { "Joint": "TorsoTilt", "Angle": 110 },
+                
+                { "Joint": "RightShoulder", "Angle": 150 },
+                { "Joint": "RightElbow", "Angle": 150 },
+
+                { "Joint": "LeftShoulder", "Angle": 75 },
+                { "Joint": "LeftElbow", "Angle": 75 }
+            ]
+        },
+        {
+            "HasEmote": "False",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "Expression": "Happy",
+            "WaitTime": 150,
+            "JointMoveTime": 0.5,
+            "JointAngles": [
+              
+                { "Joint": "HeadTilt", "Angle": 120 },
+                { "Joint": "TorsoTilt", "Angle": 120 },
+
+                { "Joint": "RightShoulder", "Angle": 170 },
+                { "Joint": "RightElbow", "Angle": 140 },
+
+                { "Joint": "LeftShoulder", "Angle": 110 },
+                { "Joint": "LeftElbow", "Angle": 40 }
+            ]
+        },
+        {
+            "HasEmote": "False",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "Expression": "Happy",
+            "WaitTime": 150,
+            "JointMoveTime": 0.5,
+            "JointAngles": [
+              
+                { "Joint": "HeadTilt", "Angle": 110 },
+                {"Joint": "TorsoTilt", "Angle": 110 },
+
+                { "Joint": "RightShoulder", "Angle": 150 },
+                { "Joint": "RightElbow", "Angle": 150 },
+
+                { "Joint": "LeftShoulder", "Angle": 75 },
+                { "Joint": "LeftElbow", "Angle": 75 }
+            ]
+        },
+        {
+            "HasEmote": "False",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "Expression": "Happy",
+            "WaitTime": 150,
+            "JointMoveTime": 0.5,
+            "JointAngles": [
+              
+                { "Joint": "HeadTilt", "Angle": 135 },
+                {"Joint": "TorsoTilt", "Angle": 115 },
+
+                { "Joint": "RightShoulder", "Angle": 180 },
+                { "Joint": "RightElbow", "Angle": 140 },
+
+                { "Joint": "LeftShoulder", "Angle": 110 },
+                { "Joint": "LeftElbow", "Angle": 40 }
+            ]
+        },
+        {
+            "name": "End of Shimmy moves --------------------",
+            "_comment": "Shimmy moves end here"
+        },
+        {
+            "name": "Start of YMCA moves --------------------",
+            "_comment": "YMCA Letter poses start here"
+        },
+        {
+            "name": "y-pose",
+            "_comment": "The next two frames are the Y-pose"
+        },
+        {
+            "HasEmote": "True",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "Expression": "Happy",
+            "WaitTime": 400,
+            "JointMoveTime": 0.4,
+            "JointAngles": [
+
+                {"Joint": "RightShoulder","Angle": 230},
+                {"Joint": "LeftShoulder","Angle": 40},
+                {"Joint": "RightBicep","Angle": 200},
+                {"Joint": "LeftBicep","Angle": 30},
+                {"Joint": "RightElbow","Angle": 10},
+                {"Joint": "LeftElbow","Angle": 180}
+            ]
+        },
+        {
+            "name": "m-pose",
+            "_comment": "The next frame is the M-pose"
+        },
+        {
+            "HasEmote": "False",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "WaitTime": 400,
+            "JointMoveTime": 0.4,
+            "JointAngles": [
+
+                {"Joint": "RightShoulder","Angle": 220},
+                {"Joint": "LeftShoulder","Angle": 50},
+                {"Joint": "LeftBicep","Angle": 25},
+                {"Joint": "RightBicep","Angle": 205},
+                {"Joint": "RightElbow","Angle": 110},
+                {"Joint": "LeftElbow","Angle": 70}
+            ]
+        },
+        {
+            "name": "c-pose",
+            "_comment": "The next frame is the C-pose"
+        },
+        {
+            "HasEmote": "False",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "WaitTime": 400,
+            "JointMoveTime": 0.4,
+            "JointAngles": [
+                
+                {"Joint": "RightChest","Angle": -35},
+                {"Joint": "RightElbow","Angle": 35},
+                {"Joint": "RightBicep","Angle": 15},
+                {"Joint": "RightShoulder","Angle": 100},
+
+
+                {"Joint": "LeftChest","Angle": 290},
+                {"Joint": "LeftElbow","Angle": 90},
+                {"Joint": "LeftBicep","Angle": 200},
+                {"Joint": "LeftShoulder","Angle": 60},
+
+                {"Joint": "TorsoTilt","Angle": 85},
+                {"Joint": "HeadTilt","Angle": 110}
+            
+            ]
+        },
+        {
+            "name": "A-pose",
+            "_comment": "The next two frames are the A-pose"
+        },
+        {
+            "HasEmote": "False",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "WaitTime": 400,
+            "JointMoveTime": 0.4,
+            "JointAngles": [
+
+                {"Joint": "RightElbow","Angle": 60},
+                {"Joint": "RightShoulder","Angle": 95},
+                {"Joint": "RightBicep", "Angle": 30},
+
+                {"Joint": "LeftElbow", "Angle": 115},
+                {"Joint": "LeftShoulder", "Angle": 160},
+                {"Joint": "LeftBicep", "Angle": 200},
+
+                {"Joint": "TorsoTilt","Angle": 115},
+                {"Joint": "HeadTilt","Angle": 125}
+                
+            ] 
+        },
+        {
+            "name": "End of YMCA moves --------------------",
+            "_comment": "YMCA Letter poses end here"
+        },
+        {
+            "name": "Start of Shimmy moves --------------------",
+            "_comment": "Shimmy moves start here"
+        },
+        {
+            "HasEmote": "False",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "Expression": "Happy",
+            "WaitTime": 300,
+            "JointMoveTime": 0.5,
+            "JointAngles": [
+              
+                { "Joint": "HeadTilt", "Angle": 120 },
+                { "Joint": "TorsoTilt", "Angle": 120 },
+                
+                { "Joint": "RightShoulder", "Angle": 180 },
+                { "Joint": "RightElbow", "Angle": 130 },
+                {"Joint": "RightBicep", "Angle": 115},
+                {"Joint": "RightChest", "Angle": 135},
+
+                { "Joint": "LeftShoulder", "Angle": 90 },
+                { "Joint": "LeftElbow", "Angle": 50 },
+                {"Joint": "LeftBicep", "Angle": 135},
+                {"Joint": "LeftChest", "Angle": 135}
+            ]
+        },
+        {
+            "HasEmote": "False",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "Expression": "Happy",
+            "WaitTime": 150,
+            "JointMoveTime": 0.5,
+            "JointAngles": [
+              
+                { "Joint": "HeadTilt", "Angle": 110 },
+                { "Joint": "TorsoTilt", "Angle": 110 },
+                
+                { "Joint": "RightShoulder", "Angle": 150 },
+                { "Joint": "RightElbow", "Angle": 150 },
+
+                { "Joint": "LeftShoulder", "Angle": 75 },
+                { "Joint": "LeftElbow", "Angle": 75 }
+            ]
+        },
+        {
+            "HasEmote": "False",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "Expression": "Happy",
+            "WaitTime": 150,
+            "JointMoveTime": 0.5,
+            "JointAngles": [
+              
+                { "Joint": "HeadTilt", "Angle": 120 },
+                { "Joint": "TorsoTilt", "Angle": 120 },
+
+                { "Joint": "RightShoulder", "Angle": 170 },
+                { "Joint": "RightElbow", "Angle": 140 },
+
+                { "Joint": "LeftShoulder", "Angle": 110 },
+                { "Joint": "LeftElbow", "Angle": 40 }
+            ]
+        },
+        {
+            "HasEmote": "False",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "Expression": "Happy",
+            "WaitTime": 150,
+            "JointMoveTime": 0.5,
+            "JointAngles": [
+              
+                { "Joint": "HeadTilt", "Angle": 110 },
+                {"Joint": "TorsoTilt", "Angle": 110 },
+
+                { "Joint": "RightShoulder", "Angle": 150 },
+                { "Joint": "RightElbow", "Angle": 150 },
+
+                { "Joint": "LeftShoulder", "Angle": 75 },
+                { "Joint": "LeftElbow", "Angle": 75 }
+            ]
+        },
+        {
+            "HasEmote": "False",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "Expression": "Happy",
+            "WaitTime": 150,
+            "JointMoveTime": 0.5,
+            "JointAngles": [
+              
+                { "Joint": "HeadTilt", "Angle": 135 },
+                {"Joint": "TorsoTilt", "Angle": 115 },
+
+                { "Joint": "RightShoulder", "Angle": 180 },
+                { "Joint": "RightElbow", "Angle": 140 },
+
+                { "Joint": "LeftShoulder", "Angle": 110 },
+                { "Joint": "LeftElbow", "Angle": 40 }
+            ]
+        },
+        {
+            "name": "End of Shimmy moves --------------------",
+            "_comment": "Shimmy moves end here"
+        },
+        {
+            "HasEmote": "False",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "Expression": "Neutral",
+            "WaitTime": 300,
+            "JointMoveTime": 0.5,
+            "JointAngles": [
+                { "Joint": "HeadTilt", "Angle": 125 },
+                { "Joint": "TorsoTilt", "Angle": 115 },
+        
+                { "Joint": "RightShoulder", "Angle": 85 },
+                { "Joint": "RightElbow", "Angle": 90 },
+                { "Joint": "RightBicep", "Angle": 115 },
+                { "Joint": "RightChest", "Angle": 135 },
+        
+                { "Joint": "LeftShoulder", "Angle": 180 },
+                { "Joint": "LeftElbow", "Angle": 105 },
+                { "Joint": "LeftBicep", "Angle": 115 },
+                { "Joint": "LeftChest", "Angle": 115 }
+            ]
+        }
+        
+    ]
+}

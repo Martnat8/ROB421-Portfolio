@@ -1,0 +1,46 @@
+{
+    "Name": "MotionTest",
+    "Keyframes": [
+        {
+            "HasEmote": "False",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "Expression": "Happy",
+            "WaitTime": 300,
+            "JointMoveTime": 1,
+            "JointAngles": [
+            
+                { "Joint": "LeftElbow", "Angle": 40 },
+                { "Joint": "RightElbow", "Angle": 140 }
+            ]
+        },
+        {
+            "HasEmote": "False",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "Expression": "Happy",
+            "WaitTime": 300,
+            "JointMoveTime": 1,
+            "JointAngles": [
+            
+                { "Joint": "LeftElbow", "Angle": 160 },
+                { "Joint": "LeftBicep", "Angle": 70 }
+
+            ]
+        },
+        {
+            "HasEmote": "False",
+            "HasAudio": "False",
+            "HasJoints": "True",
+            "Expression": "Happy",
+            "WaitTime": 300,
+            "JointMoveTime": 1,
+            "JointAngles": [
+            
+                { "Joint": "LeftElbow", "Angle": 70 }
+
+            ]
+        }
+        
+    ]
+}
