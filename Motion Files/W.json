@@ -1,0 +1,94 @@
+{
+  "Name": "W",
+  "Keyframes": [
+      {
+          "HasEmote": "False",
+          "HasAudio": "False",
+          "AudioClip": "",
+          "HasJoints": "True",
+          "WaitTime": 2000,
+          "JointMoveTime":2,
+          "JointAngles": [
+              {
+                  "Joint": "TorsoBow",
+                  "Angle": 125
+              },
+              {
+                  "Joint": "LeftShoulder",
+                  "Angle": 180
+              },
+              {
+                  "Joint": "LeftBicep",
+                  "Angle": 115  
+              },
+              {
+                  "Joint": "LeftElbow",
+                  "Angle": 105
+              },
+              {
+                  "Joint": "rightShoulder",
+                  "Angle": 85
+              },
+              {
+                  "Joint": "rightBicep",
+                  "Angle": 115  
+              },
+              {
+                  "Joint": "rightElbow",
+                  "Angle": 90
+              }
+          ]
+      },
+      {
+          "HasEmote": "False",
+          "HasAudio": "False",
+          "HasJoints": "True",
+          "WaitTime": 2000,
+          "JointMoveTime":2,
+          "JointAngles": [
+              {
+                  "Joint": "LeftShoulder",
+                  "Angle": 120
+              },
+              {
+                  "Joint": "rightShoulder",
+                  "Angle": 120
+              }
+          ]
+      },
+      {
+          "HasEmote": "False",
+          "HasAudio": "False",
+          "HasJoints": "True",
+          "WaitTime": 2000,
+          "JointMoveTime":2,
+          "JointAngles": [
+              {
+                  "Joint": "LeftBicep",
+                  "Angle": 70
+              },
+              {
+                  "Joint": "rightBicep",
+                  "Angle": 130
+              }
+          ]
+      },
+      {
+          "HasEmote": "False",
+          "HasAudio": "False",
+          "HasJoints": "True",
+          "WaitTime": 2000,
+          "JointMoveTime":2,
+          "JointAngles": [
+              {
+                  "Joint": "LeftElbow",
+                  "Angle": 90
+              },
+              {
+                  "Joint": "rightElbow",
+                  "Angle": 90
+              }
+          ]
+      }
+  ]
+}
