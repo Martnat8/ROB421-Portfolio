@@ -49,24 +49,11 @@ class AnglePublisher(Node):
 		angles['LeftElbow']  = self.compute_angle(lm[11], lm[13], lm[15])
 		angles['RightElbow'] = self.compute_angle(lm[12], lm[14], lm[16])
 
-		# Calculate elbow rotation using plane normals (twist about upper arm axis)
-		# Left side: shoulder=11, elbow=13, wrist=15
-		# Using: A=wrist(15), B=elbow(13), C=shoulder(11), D=hip(23)
-		# angles['LeftElbow'] = self.compute_rotation(lm[15], lm[13], lm[11], lm[23])
-
-		# # Right side: shoulder=12, elbow=14, wrist=16
-		# # Using: A=wrist(16), B=elbow(14), C=shoulder(12), D=hip(24)
-		# angles['RightElbow'] = self.compute_rotation(lm[16], lm[14], lm[12], lm[24])
-
-
-
 		# Calculate shoulder angles
 		# Left side: shoulder=11, elbow=13, hip=23
 		# Right side: shoulder=12, elbow=14, hip=24
 		angles['LeftShoulder']  = self.compute_angle(lm[13], lm[11], lm[23])
 		angles['RightShoulder'] = self.compute_angle(lm[14], lm[12], lm[24])
-
-
 
 		# Calculate bicep rotation angle
 		# Left side: hip=23, shoulder=11, elbow=13, wrist=15
@@ -107,9 +94,8 @@ class AnglePublisher(Node):
 		return theta
 	
 
-	# Used to calculate the angle of twist of SAMI bicep by using two planes and 
-	# the angle between their normals.
-	# TODO: clamp 
+	# Used to calculate the angle of twist of SAMI bicep and chest by using 
+	# two planes and the angle between their normals. 
 
 	def compute_rotation(self, A, B, C, D):
 
@@ -152,24 +138,6 @@ class AnglePublisher(Node):
 		# multiply magnitude by sign
 		return sign * phi
 
-
-	# Calculate the angle between a vector and the normal of a plane 
-	def vector_plane(self, A, B, C, D, E):
-
-		# Extract 3D points from landmarks
-		p_A = np.array([A.x, A.y, A.z])
-		p_B = np.array([B.x, B.y, B.z])
-		p_C = np.array([C.x, C.y, C.z])
-		p_D = np.array([D.x, D.y, D.z])
-		p_E = np.array([E.x, E.y, E.z])
-
-		# Build the vector
-		v_AB = p_A - p_B
-
-		# Find the normal of the plane
-		v_BC = p_B - p_C
-		v_CD = p_C - p_D
-		V_DE
 
 
 

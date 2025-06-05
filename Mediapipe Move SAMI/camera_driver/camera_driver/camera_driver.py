@@ -87,9 +87,10 @@ class CameraDriver(Node):
 			self.get_logger().warn('capture.read() returned False')
 			return
 
+		flipped = cv2.flip(frame, 1)
 		
 		# Make an image message, and fill in the information.
-		image_message = self.bridge.cv2_to_imgmsg(frame, encoding= self.encoding_type)
+		image_message = self.bridge.cv2_to_imgmsg(flipped, encoding= self.encoding_type)
 		image_message.header.stamp = self.get_clock().now().to_msg()
 		image_message.header.frame_id = self.frame_id
 
