@@ -15,8 +15,9 @@ class MoveSami(Node):
                 super().__init__('move_sami')
 
                 # find where move_sami was installed
-                pkg_share = os.path.join('/home/Teft/ROB421Project_ws/src/move_sami')
-                cfg_dir   = os.path.join(pkg_share, 'config')
+                pkg_share = get_package_share_directory('move_sami')
+                cfg_dir = os.path.join(pkg_share, 'config')
+
 
                 # point JamieControl at the installed JSONs
                 joint_cfg = os.path.join(cfg_dir, 'Joint_config.json')
