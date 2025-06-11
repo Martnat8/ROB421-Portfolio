@@ -35,5 +35,8 @@ and moves on to the next pose.
 - Develop a score system or timed rounds to make it more game-like.
 
 ---
+---
 
-License: BSD 3-Clause
+##  License
+
+BSD 3-Clause License
