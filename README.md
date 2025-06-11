@@ -6,14 +6,11 @@ This repository contains the final project for the **BAJAN Robotics team** in **
 
 ##  Folder Overview
 
-### `Face Script/`
-A standalone **Pygame-based animation script** that simulates SAMI’s facial expressions on an LCD screen. It includes animated blinking eyes, shifting pupils, and a talking mouth effect designed to run as a full-screen overlay.
-
-### `Motion Files/`
-Contains all robot **motion sequences** in `.json` format. Each file defines a series of keyframes that control SAMI's servo positions, timing, and optional audio/emotion metadata. These are parsed by the SAMI robot’s runtime to execute expressive, timed motions.
-
 ### `CAD Files/`
 Includes all Fusion 360 (`.f3d`) and STL (`.stl`) files for the **robot head and screen mounting system**. These parts were designed to fit a specific vertical LCD and include mounts for speakers, neck stabilization, and more.
+
+### `Face Script/`
+A standalone **Pygame-based animation script** that simulates SAMI’s facial expressions on an LCD screen. It includes animated blinking eyes, shifting pupils, and a talking mouth effect designed to run as a full-screen overlay.
 
 ### `Mediapipe Move SAMI/`
 Contains all source files related to:
@@ -22,6 +19,10 @@ Contains all source files related to:
 - **Servo movement execution** for SAMI
 
 This folder also includes its own detailed `README.md` that explains setup, launch instructions, and system architecture.
+
+### `Motion Files/`
+Contains all robot **motion sequences** in `.json` format. Each file defines a series of keyframes that control SAMI's servo positions, timing, and optional audio/emotion metadata. These are parsed by the SAMI robot’s runtime to execute expressive, timed motions.
+
 
 ---
 
