@@ -47,3 +47,9 @@ Originally developed for a class project in which the robot SAMI displayed a fac
 
 - Sound support is present but commented out.
 - Designed for vertically mounted 480x800 displays.
+
+---
+
+## 📄 License
+
+BSD 3-Clause License
