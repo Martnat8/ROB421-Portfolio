@@ -35,6 +35,6 @@ Check out our robot in action on Instagram:
 
 ---
 
-## 📄 License
+## License
 
 BSD 3-Clause License
