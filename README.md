@@ -1,6 +1,6 @@
 # ROB 421 – BAJAN Robotics Team Term Project
 
-This repository contains the final project for the **BAJAN Robotics team** in **ROB 421: Applied Robotics** at Oregon State University. The project centers around SAMI, a servo-actuated humanoid robot capable of interpreting human pose using MediaPipe and responding with expressive movements and animations.
+This repository contains the final project for the **BAJAN Robotics team** in **ROB 421: Applied Robotics** at Oregon State University. The project centers around [SAMI](https://github.com/jlruballos/sami_ws), a servo-actuated humanoid robot. The main component we developed is a series of ROS2 nodes that take in a camera feed and, using Google's Mediapipe, has SAMI mirror your motions. The second is integrating an LCD screen and simulating facial expressions. We hope you enjoy! We had a great time working on this.
 
 ---
 
