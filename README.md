@@ -1,10 +1,34 @@
-This repository contains the term project for BAJAN Robotics team for ROB421 Applied Robotics class at Oregon State University.
+# ROB 421 – BAJAN Robotics Team Term Project
 
-Motion Files contains all json files. 
+This repository contains the final project for the **BAJAN Robotics team** in **ROB 421: Applied Robotics** at Oregon State University. The project centers around SAMI, a servo-actuated humanoid robot capable of interpreting human pose using MediaPipe and responding with expressive movements and animations.
 
-CAD files contains all our stls and 3d models for our head design.
+---
 
-Mediapipe Move SAMI contains all files related to mediapipe VLM, camera drivers, and movement execution. There is also an additional README in this folder explaining more. 
+##  Folder Overview
 
+### `Motion Files/`
+Contains all robot **motion sequences** in `.json` format. Each file defines a series of keyframes that control SAMI's servo positions, timing, and optional audio/emotion metadata. These are parsed by the SAMI robot’s runtime to execute expressive, timed motions.
 
-Link to Instagram page showing off our [SAMI BOT](https://www.instagram.com/rob421_sami5/)
+### `CAD Files/`
+Includes all Fusion 360 (`.f3d`) and STL (`.stl`) files for the **robot head and screen mounting system**. These parts were designed to fit a specific vertical LCD and include mounts for speakers, neck stabilization, and more.
+
+### `Mediapipe Move SAMI/`
+Contains all source files related to:
+- MediaPipe-based **vector landmark extraction**
+- **Camera drivers** for live pose tracking
+- **Servo movement execution** for SAMI
+
+This folder also includes its own detailed `README.md` that explains setup, launch instructions, and system architecture.
+
+---
+
+##  Project Demo
+
+Check out our robot in action on Instagram:  
+👉 [@rob421_sami5](https://www.instagram.com/rob421_sami5/)
+
+---
+
+## 📄 License
+
+BSD 3-Clause License
