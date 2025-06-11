@@ -23,6 +23,8 @@ This folder also includes its own detailed `README.md` that explains setup, laun
 ### `Motion Files/`
 Contains all robot **motion sequences** in `.json` format. Each file defines a series of keyframes that control SAMI's servo positions, timing, and optional audio/emotion metadata. These are parsed by the SAMI robot’s runtime to execute expressive, timed motions.
 
+### `SamiSays/`
+Contains prototype ROS 2 nodes for a game of "SAMI Says," where the robot prompts users with poses and waits for them to mirror them using MediaPipe-based joint tracking. Includes a pose-publishing node (`sami_says.py`) and a test data simulator (`fake_angle.py`). This system was not fully integrated during development but demonstrates the concept of interactive pose matching.
 
 ---
 
