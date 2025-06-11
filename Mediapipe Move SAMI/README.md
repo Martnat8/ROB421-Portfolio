@@ -4,7 +4,7 @@ This project includes a set of ROS 2 packages used to control the SAMI robot bas
 
 ---
 
-## 🛠 Dependencies
+## Dependencies
 
 Make sure the following Python packages are installed in your environment:
 
