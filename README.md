@@ -6,6 +6,9 @@ This repository contains the final project for the **BAJAN Robotics team** in **
 
 ##  Folder Overview
 
+### `Face Script/`
+A standalone **Pygame-based animation script** that simulates SAMI’s facial expressions on an LCD screen. It includes animated blinking eyes, shifting pupils, and a talking mouth effect designed to run as a full-screen overlay.
+
 ### `Motion Files/`
 Contains all robot **motion sequences** in `.json` format. Each file defines a series of keyframes that control SAMI's servo positions, timing, and optional audio/emotion metadata. These are parsed by the SAMI robot’s runtime to execute expressive, timed motions.
 
