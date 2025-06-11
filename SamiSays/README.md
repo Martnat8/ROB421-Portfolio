@@ -34,7 +34,7 @@ and moves on to the next pose.
 - Add visual or audio feedback when poses are matched or failed.
 - Develop a score system or timed rounds to make it more game-like.
 
----
+
 ---
 
 ##  License
