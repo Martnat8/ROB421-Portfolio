@@ -1,4 +1,4 @@
-# ROB 499 Robot Software Frameworks HW4
+# Camera Driver
 
 This package contains a node that publishes image frames from a UVC compliant camera
 
