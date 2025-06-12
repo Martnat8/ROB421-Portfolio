@@ -26,17 +26,4 @@ ________________________________________________________________________________
 Maintainer - Nathan Martin - martnat8@oregonstate.edu
 _____________________________________________________________________________________
 License - BSD 3-Clause
-_____________________________________________________________________________________
-References:
 
-Integratin OpenCV with ROS2
-https://ibrahimmansur4.medium.com/integrating-opencv-with-ros2-a-comprehensive-guide-to-computer-vision-in-robotics-66b97fa2de92
-
-Getting Started with OpenCV in ROS 2 Foxy Fitzroy (Python)
-https://automaticaddison.com/getting-started-with-opencv-in-ros-2-foxy-fitzroy-python/
-
-Converting between ROS images and OpenCV
-https://wiki.ros.org/cv_bridge/Tutorials/ConvertingBetweenROSImagesAndOpenCVImagesPython
-
-OpenCV Python video tutorials
-https://docs.opencv.org/4.x/dd/d43/tutorial_py_video_display.html
