@@ -45,4 +45,7 @@ This ROS 2 node uses **MediaPipe BlazePose** to extract full-body pose landmarks
 - Landmarks are published in world coordinates using MediaPipe's `pose_world_landmarks`.
 
 ---
+##  License
+
+BSD 3-Clause License
 
