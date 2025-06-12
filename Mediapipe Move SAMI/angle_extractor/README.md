@@ -24,7 +24,7 @@ To support additional joints in the correction pipeline (`anglecorrector.py`):
    Add an entry for the new joint in the following format:
    ```python
    "NewJointName": {
-       "servohome": <int>,      # Servo PWM value at home
+       "servohome": <int>,      # Servo angle value at home
        "min": <int>,            # Minimum servo limit
        "max": <int>,            # Maximum servo limit
        "direction": <1 or -1>,  # Based on direction of CCW or CW in SAMI's joint servo frame
