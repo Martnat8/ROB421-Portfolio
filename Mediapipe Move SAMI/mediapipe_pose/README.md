@@ -26,6 +26,9 @@ This ROS 2 node uses **MediaPipe BlazePose** to extract full-body pose landmarks
 
 ## Parameters
 
+**Note:** Despite the name, the `publish_rate_hz` parameter actually controls the **time interval in seconds** between published messages, not the frequency in Hz. This should be corrected....
+
+
 | Name                      | Description                                 | Default  |
 |---------------------------|---------------------------------------------|----------|
 | `model_complexity`        | BlazePose model version (0–2)               | `1`      |
