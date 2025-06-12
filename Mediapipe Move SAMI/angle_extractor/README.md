@@ -44,3 +44,9 @@ To support additional joints in the correction pipeline (`anglecorrector.py`):
 Together, these nodes convert raw pose landmarks into robot-ready joint commands, bridging the gap between camera-based human motion and servo-actuated mimicry in SAMI.
 
 > These files are intended to be used as part of a larger ROS2 system involving a MediaPipe-based pose estimator and SAMI's servo control logic.
+
+---
+
+## Notes
+
+This was developed with a very cheap UVC camera, Mediapipe did it's best to find some 3 dimensional positioning, but it was never very accurate. SAMI mirrors pretty effectively if you keep your motions restricted to the plane of your body, but if you stick your arms forward or back things get a little weird. Future endeavors could integrate some depth measurements to help with this.
